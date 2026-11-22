@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" width="360" height="220" role="img" aria-label="Affinity Pool Service logo">
+  <g transform="translate(180 110)">
+  <defs>
+    <linearGradient id="irib" gradientUnits="userSpaceOnUse" x1="-145" y1="0" x2="145" y2="0">
+      <stop offset="0" stop-color="#38d6f5"/><stop offset=".5" stop-color="#1689e0"/><stop offset="1" stop-color="#123a9c"/>
+    </linearGradient>
+    <mask id="iholes" maskUnits="userSpaceOnUse" x="-160" y="-80" width="320" height="160">
+      <path d="M0 0 C44 -80 132 -80 132 0 C132 80 44 80 0 0 C-44 -80 -132 -80 -132 0 C-132 80 -44 80 0 0Z" fill="#fff" stroke="#000" stroke-width="24"/>
+    </mask>
+    <mask id="iunder" maskUnits="userSpaceOnUse" x="-160" y="-80" width="320" height="160">
+      <rect x="-160" y="-80" width="320" height="160" fill="#fff"/>
+      <path d="M132 0 C132 80 44 80 0 0 C-44 -80 -132 -80 -132 0" fill="none" stroke="#000" stroke-width="35"/>
+    </mask>
+  </defs>
+  <g mask="url(#iholes)">
+    <path d="M-150 6 Q-125.0 -3 -100.0 6 Q-75.0 15 -50.0 6 Q-25.0 -3 0.0 6 Q25.0 15 50.0 6 Q75.0 -3 100.0 6 Q125.0 15 150.0 6 V90 H-150Z" fill="#7fdcf7" opacity=".75"/>
+    <path d="M-150 24 Q-120.0 16 -90.0 24 Q-60.0 32 -30.0 24 Q0.0 16 30.0 24 Q60.0 32 90.0 24 Q120.0 16 150.0 24 V90 H-150Z" fill="#2aa7e8" opacity=".7"/>
+  </g>
+  <path d="M0 0 C44 -80 132 -80 132 0 C132 80 44 80 0 0 C-44 -80 -132 -80 -132 0 C-132 80 -44 80 0 0Z" fill="none" stroke="url(#irib)" stroke-width="24" mask="url(#iunder)"/>
+  <path d="M132 0 C132 80 44 80 0 0 C-44 -80 -132 -80 -132 0" fill="none" stroke="url(#irib)" stroke-width="24"/>
+  </g>
+</svg>
